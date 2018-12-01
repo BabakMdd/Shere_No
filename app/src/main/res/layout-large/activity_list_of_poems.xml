@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list_of_poems"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/copyasar1"
+    tools:context="shereno.andishesaz.com.shere_nov1.ListOfPoems">
+
+    <ImageButton
+        android:id="@+id/secondbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ahbaran"
+        android:onClick="AhBaran"
+        android:layout_alignTop="@+id/firstbook"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp" />
+
+    <ImageButton
+        android:id="@+id/thirdbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/diareashti"
+        android:layout_below="@+id/firstbook"
+        android:layout_toRightOf="@+id/forthbook"
+        android:layout_toEndOf="@+id/forthbook"
+        android:onClick="azdiarAshti"/>
+
+    <ImageButton
+        android:id="@+id/forthbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/panjsokhansara"
+        android:layout_below="@+id/secondbook"
+        android:layout_alignLeft="@+id/secondbook"
+        android:layout_alignStart="@+id/secondbook"
+        android:onClick="bapanjsokhansara"/>
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/next1"
+        android:layout_marginRight="80dp"
+        android:layout_marginEnd="80dp"
+        android:onClick="SecondPage"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="81dp" />
+
+    <ImageButton
+        android:id="@+id/firstbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/abrokooche"
+        android:layout_marginTop="85dp"
+        android:onClick="abrokoocheh"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/secondbook"
+        android:layout_toEndOf="@+id/secondbook" />
+
+</RelativeLayout>

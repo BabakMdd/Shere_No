@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/copyasar2">
+
+    <Button
+        android:id="@+id/safedovomnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/next1"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_alignBaseline="@+id/safedovomprev"
+        android:layout_alignBottom="@+id/safedovomprev"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="ThirdPage"/>
+
+    <Button
+        android:id="@+id/safedovomprev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:layout_marginBottom="35dp"
+        android:onClick="BackToFirst"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/eighthbook"
+        android:layout_alignStart="@+id/eighthbook"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <ImageButton
+        android:id="@+id/fifthbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baharrabavarkon"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/sixthbook"
+        android:layout_toEndOf="@+id/sixthbook"
+        android:onClick="baharrabavarkon"/>
+
+    <ImageButton
+        android:id="@+id/sixthbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gonahdarya"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="gonahDaray"/>
+
+    <ImageButton
+        android:id="@+id/eighthbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lahzehavaehsas"
+        android:layout_below="@+id/fifthbook"
+        android:layout_alignLeft="@+id/sixthbook"
+        android:layout_alignStart="@+id/sixthbook"
+        android:onClick="lahzehavaehsas"/>
+
+    <ImageButton
+        android:id="@+id/seventhbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gozideashaar"
+        android:layout_below="@+id/sixthbook"
+        android:layout_toRightOf="@+id/eighthbook"
+        android:layout_toEndOf="@+id/eighthbook"
+        android:onClick="gozideashaar"/>
+
+</RelativeLayout>

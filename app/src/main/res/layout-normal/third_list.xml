@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/copyasar3">
+
+    <Button
+        android:id="@+id/safesevomnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/next1"
+        android:layout_marginRight="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_alignBaseline="@+id/safesevomprev"
+        android:layout_alignBottom="@+id/safesevomprev"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="ForthPage"/>
+
+    <ImageButton
+        android:id="@+id/elevenbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/teshnetoofan"
+        android:layout_alignBottom="@+id/twelvebook"
+        android:layout_toRightOf="@+id/twelvebook"
+        android:layout_toEndOf="@+id/twelvebook"
+        android:onClick="teshnetoofan"/>
+
+    <ImageButton
+        android:id="@+id/ninthbook"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/morvaridmehr"
+        android:layout_alignTop="@+id/tenthbook"
+        android:layout_toRightOf="@+id/tenthbook"
+        android:layout_toEndOf="@+id/tenthbook"
+        android:layout_above="@+id/elevenbook"
+        android:onClick="morvaridmehr"/>
+
+    <Button
+        android:id="@+id/safesevomprev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:layout_marginBottom="37dp"
+        android:onClick="BackToSecond"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/twelvebook"
+        android:layout_alignStart="@+id/twelvebook" />
+
+    <ImageButton
+        android:id="@+id/twelvebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yekasemanparande"
+        android:layout_below="@+id/tenthbook"
+        android:layout_alignLeft="@+id/tenthbook"
+        android:layout_alignStart="@+id/tenthbook"
+        android:onClick="yekasemanparande"/>
+
+    <ImageButton
+        android:id="@+id/tenthbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/parvazbakhorshid"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:onClick="Parvazbakhorshid"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+//---------------------------Prefrences Texts Back Color CSS-----------------------------------
+    <style name="AppTheme.WhiteBack" parent="android:Theme.Black">
+        <item name="android:textColor">@color/toast</item>
+        <item name="android:textColorSecondary">@color/summery_back</item>
+    </style>
+
+ //--------------------------- Set Text Color For Search Page----------------------------------
+    <style name="AppTheme.WhiteText" parent="android:style/Widget.EditText">
+        <item name="android:textColor">@color/sepratorBack</item>
+        <item name="android:background">@color/toast</item>
+    </style>
+
+    <style name="AppTheme.list" parent="android:style/Widget.ListView">
+        <item name="android:textColor">@color/toast</item>
+        <item name="android:divider">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.poemsList" parent="android:Widget.DeviceDefault.ListView">
+        <item name="android:textColor">@color/toast</item>
+    </style>
+
+  //---------------------------------- CSS For Dialogs-------------------------------------------
+
+    <style name="AppTheme.dialog" parent="android:Widget.SeekBar"></style>
+
+    //-------------------------------- CSS For Expandable List-----------------------------------
+
+    <style name="AppTheme.expList" parent="android:Widget.ExpandableListView">
+        <item name="android:height">@dimen/expandable_list</item>
+        <item name="android:textColor">@color/toast</item>
+        <item name="android:colorSecondary">@color/toast</item>
+    </style>
+
+    //-------------------------------BioGraphy CSS-----------------------------------------------
+    <style name="AppTheme.WhiteContent" parent="android:Widget.DeviceDefault.TextView">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    //-------------------------------TextView For Expandable--------------------------------------
+
+    <style name="AppTheme.titleText" parent="android:Widget.DeviceDefault.TextView">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    //-------------------------------AlertDialog textView-----------------------------------------
+
+    <style name="DialogAnimation" >
+        <item name="android:windowEnterAnimation">@anim/enterdialog</item>
+        <item name="android:windowExitAnimation">@anim/exitdialog</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--رنگ باتن ها-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--رنگ تایتل و متن-->
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <!--بک گروند دیالوگ-->
+      <!--  <item name="android:windowBackground">@drawable/background_dialog</item> -->
+    </style>
+
+</resources>

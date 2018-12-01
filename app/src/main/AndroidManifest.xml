@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="shereno.andishesaz.com.shere_nov1"
+    android:installLocation="preferExternal"
+    android:versionCode="3"
+    android:versionName="2.0.0">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.farsitel.bazaar.permission.PAY_THROUGH_BAZAAR" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <supports-screens android:anyDensity="true"
+        android:smallScreens="false"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"></supports-screens>
+
+    <application
+        android:name=".ClassesAndInterfaces.CustomizedFont"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListOfPoems"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="shereno.andishesaz.com.shere_nov1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Poems"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="shereno.andishesaz.com.shere_nov1.ListOfPoems" />
+        </activity>
+        <activity
+            android:name=".WithSoundPoems"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="shereno.andishesaz.com.shere_nov1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PlaySoundWithPoems"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="shereno.andishesaz.com.shere_nov1.WithSoundPoems" />
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="shereno.andishesaz.com.shere_nov1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ShowPoems"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="shereno.andishesaz.com.shere_nov1.Poems" />
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="shereno.andishesaz.com.shere_nov1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FavoriteActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="shereno.andishesaz.com.shere_nov1.MainActivity" />
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".ClassesAndInterfaces.UpdateService" />
+
+        <activity
+            android:name=".ClassesAndInterfaces.FavoriteShowDetail"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="shereno.andishesaz.com.shere_nov1.FavoriteActivity" />
+        </activity>
+        <activity
+            android:name=".BioGraphyActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="shereno.andishesaz.com.shere_nov1.MainActivity" />
+        </activity>
+        <activity android:name=".AboutUs"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="shereno.andishesaz.com.shere_nov1.MainActivity" />
+        </activity>
+
+        <receiver android:name=".ReciverClass.ApplicationReciver"></receiver>
+    </application>
+
+</manifest>

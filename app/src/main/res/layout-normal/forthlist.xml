@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/forthpage">
+
+    <ImageButton
+        android:id="@+id/firstbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/avazanparandeghamgin"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/secondbook"
+        android:layout_toEndOf="@+id/secondbook"
+        android:onClick="avazanparandeghamgin"/>
+
+    <ImageButton
+        android:id="@+id/secondbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/azkhamooshi"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="azkhamooshi"/>
+
+    <ImageButton
+        android:id="@+id/forthbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/zibayejavdane"
+        android:onClick="zibayejavdane"
+        android:layout_below="@+id/secondbook"
+        android:layout_alignLeft="@+id/secondbook"
+        android:layout_alignStart="@+id/secondbook" />
+
+    <ImageButton
+        android:id="@+id/thirdbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delaviztarin"
+        android:onClick="delavviztarin"
+        android:layout_below="@+id/secondbook"
+        android:layout_toRightOf="@+id/secondbook"
+        android:layout_toEndOf="@+id/secondbook"
+        android:layout_alignBottom="@+id/forthbook" />
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:onClick="BackToPage"
+        android:layout_marginBottom="31dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/forthbook"
+        android:layout_alignStart="@+id/forthbook" />
+
+</RelativeLayout>

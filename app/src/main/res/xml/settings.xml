@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/ScreenLight">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="@string/ScreenLight"
+            android:summary="@string/ScreenLight_Detail"
+            android:key="isActive"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/FontPart" >
+        <ListPreference
+            android:title="@string/Setting_FontSize"
+            android:summary="@string/Setting_FontSize_Summery"
+            android:key="prefFontSize"
+            android:entries="@array/FontSize_Value"
+            android:entryValues="@array/FontSize_Value"/>
+        <ListPreference
+            android:title="@string/Setting_FontType"
+            android:summary="@string/Setting_FontType_Summery"
+            android:key="prefFontType"
+            android:entries="@array/FontType_Value"
+            android:entryValues="@array/FontType_Value"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/Sound">
+     <ListPreference
+         android:title="@string/Setting_background_sound"
+         android:summary="@string/Setting_background_sound_summery"
+         android:key="prefBackgroundSound"
+         android:entries="@array/SoundType_Value"
+         android:entryValues="@array/SoundType_Value"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/update_title">
+        <Preference android:key="PrefUpdateBTN" android:title="@string/updatebody"></Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

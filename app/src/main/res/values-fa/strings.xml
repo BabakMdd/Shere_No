@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">شعر نو</string>
+
+    <string name="navigation_drawer_open">باز کردن منو</string>
+    <string name="navigation_drawer_close">بستن منو</string>
+
+    <string name="action_settings">امکانات نرم افزار</string>
+    <string name="title">مجموعه اشعار فریدون مشیری</string>
+    <string name="search">جستجو</string>
+    <string name="setting">تنظیمات</string>
+    <string name="share">اشتراک گذاری شعر</string>
+    <string name="rate">ثبت امتیاز</string>
+    <string name="update">بروز رسانی</string>
+    <string name="listOfPoems">فهرست اشعار</string>
+    <string name="withSound">اشعار با دکلمه</string>
+    <string name="biography">زندگی نامه شاعر</string>
+    <string name="favorite">اشعار مورد علاقه من</string>
+    <string name="no_deklame_poems">اشعار بدون دکلمه</string>
+    <string name="display_poem">نمایش شعر</string>
+    <string name="aboutUs">درباره ما</string>
+    <string name="exit">خروج</string>
+    <string name="books">کتاب های فریدون مشیری</string>
+    <string name="bookdetail">از کتاب پرواز با خورشید</string>
+    <string name="next">شعر بعدی</string>
+    <string name="prev">شعر قبلی</string>
+    <string name="backward">بردن به عقب</string>
+    <string name="forward">بردن به جلو</string>
+    <string name="FontPart">تغییرات فونت</string>
+    <string name="Sound">موسیقی متن</string>
+    <string name="Setting_Title">تنظیمات کلی</string>
+    <string name="Setting_FontSize">تغییر سایز فونت</string>
+    <string name="Setting_FontType">تغییر نوع فونت</string>
+    <string name="Setting_FontSize_Summery">سایز مورد نظر خود را انتخاب کنید. تغییر سایز فقط روی متن شعر اعمال میشود</string>
+    <string name="Setting_FontType_Summery">فونت مورد نظر خود را انتخاب کنید. تغییر فونت فقط روی متن شعر اعمال میشود</string>
+    <string name="Setting_background_sound">انتخاب موسیقی متن</string>
+    <string name="Setting_background_sound_summery">موسیقی متن خود را انتخاب کنید</string>
+    <array name="FontSize_Value">
+        <item>کوچک</item>
+        <item>متوسط</item>
+        <item>بزرگ</item>
+    </array>
+
+    <array name="FontSize_Detail">
+        <item>13</item>
+        <item>20</item>
+        <item>25</item>
+    </array>
+    <array name="FontType_Value">
+        <item>آرمیتا</item>
+        <item>میترا</item>
+        <item>ایران</item>
+    </array>
+
+    <array name="SoundType_Value">
+        <item>پاییز</item>
+        <item>زمستان</item>
+        <item>بهار</item>
+        <item>برگ</item>
+    </array>
+
+
+    <string name="next_faild">شعر بعدی وجود ندارد</string>
+    <string name="prev_faild">شعر قبلی وجود ندارد</string>
+
+    <string name="ScreenLight">تنظیمات نور صفحه نمایش</string>
+    <string name="ScreenLight_Detail">در هنگام مطالعه اشعار صفحه نمایش روشن بماند</string>
+    <string name="quit_msg">برای خروج کلید بازگشت را مجددا بزنید</string>
+    <string name="bookdetail_rain">از کتاب آه باران</string>
+    <string name="return_home">خانه</string>
+    <string name="search_hint">عنوان مورد نظر را وارد کنید ...</string>
+    <string name="empty_area">داده ای برای نمایش وجود ندارد</string>
+    <string name="empty_item">عنوان مورد نظر را وارد کنید</string>
+    <string name="fav_menu">علاقه مندی ها</string>
+    <string name="fav_added">به لیست علاقه مندی ها افزوده شد</string>
+    <string name="fav_deklame">با دکلمه</string>
+    <string name="fav_bedoonedeklame">بدون دکلمه</string>
+    <string name="volume_title">تنظیم صدای موسیقی متن و دکلمه</string>\
+    <string name="submit_volume">تایید</string>
+    <string name="cancel_volume">لغو</string>
+    <string name="deklame_volume">میزان صدای دکلمه</string>
+    <string name="background_volume">میزان صدای موسیقی متن</string>
+    <string name="progress_title">اینترنت</string>
+    <string name="progress_message">بررسی ارتباط با اینترنت</string>
+    <string name="try_again">سعی مجدد</string>
+    <string name="connection_cancel">لغو</string>
+    <string name="connection_faild">ارتباط با اینترنت برقرار نیست</string>
+    <string name="connect_server">در حال ارتباط با سرور</string>
+    <string name="is_update">در حال حاضر نسخه جدیدتری از برنامه یافت نشد</string>
+    <string name="update_title">بروزرسانی</string>
+    <string name="update_body">نسخه جدیدتری از برنامه موجود است. آیا برای بروزرسانی تمایل دارید ؟</string>
+    <string name="update_yes">بله</string>
+    <string name="update_no">خیر</string>
+    <string name="updating">در حال دریافت اطلاعات ...
+    لطفا صبور باشید</string>
+    <string name="updatebody">بررسی برای بروزرسانی</string>
+    <string name="already_favorite">از فهرست علاقه مندی ها حذف شد</string>
+    <string name="biography_btn">فریدون مشیری ، به سال 1305 ه . ش در تهران ، دیده به جهان گشود .تحصیلات ابتدائی را در
+    مشهد و دوره متوسطه را در زادگاهش به پایان برد.پدربزرگ مادری اش ، شادروان میرزاجوادخان
+    مؤتمن الممالك از شعرای بزرگ دوره ناصری بوده است.پدر و مادر مشیری نیز هر دو ، اهل شعر و
+    ادب بوده اند .مشیری از كودكی به شعر ، دلبستگی تمام پیدا كرد و با بزرگان ادب فارسی ،
+    انس گرفت .در دوران دبیرستان و دانشگاه ، دفتری از غزل ها  و مثنوی های خود ترتیب داد
+    .آشنایی مشیری با شعر نو و قالب های آزاد ، او را از ادامه شیوه كهن بازداشت ، اما مشیری ،
+    راهی میانه را برگزید .راهی كه او انتخاب كرد ، همان اسلوب برگزیده بنیانگذاران شعر نو بود ،
+    یعنی ، شكستن قالب های عروضی و كوتاه و بلند كردن مصراع ها و استفاده بجا از قافیه .او با
+    نگاهی تازه به طبیعت و انسان به شعرش ، رنگ و بوی خاصی داد .شعر وی ، عاشقانه و دارای
+    زبانی ساده و نرم است .مشیری در سال 1379 در تهران درگذشت.</string>
+
+    <string name="about">درباره ما</string>
+    <string name="positive">بلی</string>
+    <string name="negative">خیر</string>
+    <string name="exit_dialog">آیا تمایل به امتیاز دادن به برنامه دارید ؟</string>
+
+
+
+</resources>
